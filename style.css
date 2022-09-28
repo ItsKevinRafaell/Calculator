@@ -14,12 +14,11 @@ a {
   text-decoration: none;
   color: #fff;
 }
-$pp-purple: #861a54;
-$pp-blue: #054f7d;
-$pp-ltblue: #00a7cf;
-$sp-yellow: #efe348;
 
-body {
+h6 {
+  color: #514b51;
+  text-align: center;
+  margin-top: 20px;
 }
 
 .container {
@@ -42,26 +41,6 @@ body {
   animation-name: gradients;
 }
 
-@keyframes gradients {
-  0% {
-    background-position: 0 0;
-  }
-  25% {
-    background-position: 50% 0;
-  }
-  50% {
-    background-position: 90% 0;
-  }
-  60% {
-    background-position: 60%;
-  }
-  75% {
-    background-position: 40%;
-  }
-  100% {
-    background-position: 0 0;
-  }
-}
 .calculator {
   position: relative;
   height: auto;
@@ -199,4 +178,24 @@ button#equal {
 .calculator.dark button.btn-equal {
   background-color: #223323;
   color: #ffffff;
+}
+@keyframes gradients {
+  0% {
+    background-position: 0 0;
+  }
+  25% {
+    background-position: 50% 0;
+  }
+  50% {
+    background-position: 90% 0;
+  }
+  60% {
+    background-position: 60%;
+  }
+  75% {
+    background-position: 40%;
+  }
+  100% {
+    background-position: 0 0;
+  }
 }
